@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllShopping</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        header nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .search-bar input {
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .search-bar button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 100px;
+            padding: 20px;
+        }
+        .product-item {
+            background-color: white;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .product-item img {
+            width: 100%;
+            height: auto;
+        }
+        .product-item h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .product-item p {
+            color: #555;
+        }
+        .product-item .price {
+            font-size: 20px;
+            color: #333;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer p {
+            margin: 0;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">AllShopping</div>
+        <nav>
+            <a href="index.html.html">Home</a>
+            <a href="htmlpage1.html">Products</a>
+            <a href="#">Contact</a>
+            <a href="#">Cart</a>
+        </nav>
+    </header>
+    <div class="search-bar">
+        <input type="text" placeholder="Search products">
+        <button>Search</button>
+    </div>
+    <div class="product-grid">
+        <div class="product-item">
+            <img src="Chutney Powder.png " alt="Description of image">
+            <h3>Chutney Powder</h3>
+            <p>Product description goes here.</p>
+            <div class="price">Rs.600 Per KG</div>
+            <a href="https://www.google.com">View Product Details</a>
+        </div>
+        <div class="product-item">
+            <img src="rasam powder 1.jpg " alt="Description of image">
+            <h3>Rasam Powder</h3>
+            <p>Product description goes here.</p>
+            <div class="price">Rs.800 Per KG</div>
+            <a href="https://www.google.com">View Product Details</a>
+        </div>
+    <div calss="product-grid">
+           <div class="product-item">
+        <img src="Sambar Powder.jpg " alt="Description of image"> 
+        <h3>Sambar Powder</h3>
+        <p>Product Description goes here.</p>
+        <div class="price">Rs.700 Per KG</div>
+        <a href="https://www.google.com">View Product Details</a>
+    </div>
+    <footer>
+        &copy; 2024 AllShopping. All rights reserved.
+    </footer>
+</body>
+</html>

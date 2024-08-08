@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="stylesheet1.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>AllShopping</h1>
+            <div class="delivery-info">
+                <p>Delivery Cost will be charged</p>
+                <p> </p>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search" id="search-bar">
+            </div>
+            <div class="user-controls">
+                <button onclick="window.location.href='index.html.html'">Home</button>
+                <button>Login</button>
+                <button>Cart (<span id="cart-count">0</span>)</button>  
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="product-container">
+            <div class="product-card" data-id="1">
+                <img src="https://example.com/chocolate1.jpg" alt="Cadbury Celebrations Rich Dry Fruit">
+                <h2>Cadbury Celebrations Rich Dry Fruit</h2>
+                <p>177 g</p>
+                <p class="price">₹484 <span class="old-price">₹550</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-id="2">
+                <img src="https://example.com/chocolate2.jpg" alt="Cadbury Dairy Milk Silk">
+                <h2>Cadbury Dairy Milk Silk</h2>
+                <p>155 g</p>
+                <p class="price">₹186 <span class="old-price">₹210</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-id="3">
+                <img src="https://example.com/chocolate3.jpg" alt="Cadbury Dairy Milk">
+                <h2>Cadbury Dairy Milk</h2>
+                <p>134 g</p>
+                <p class="price">₹116 <span class="old-price">₹130</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-id="4">
+                <img src="https://example.com/chocolate4.jpg" alt="Cadbury Dairy Milk Mini Treats">
+                <h2>Cadbury Dairy Milk Mini Treats</h2>
+                <p>119 g</p>
+                <p class="price">₹119 <span class="old-price">₹149</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-id="5">
+                <img src="https://example.com/chocolate5.jpg" alt="Cadbury 5 Star Mini Treats">
+                <h2>Cadbury 5 Star Mini Treats</h2>
+                <p>151.5 g</p>
+                <p class="price">₹108 <span class="old-price">₹120</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+    <script src="script1.js"></script>
+</body>
+</html>
